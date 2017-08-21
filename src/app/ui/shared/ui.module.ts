@@ -1,4 +1,3 @@
-import { ContentComponent } from './../content/content.component';
 import { NgModule }     from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '../../shared/shared.module';
@@ -13,6 +12,7 @@ import { UserProfileComponent } from '../users/user-profile/user-profile.compone
 import { UserFormComponent } from '../users/user-form/user-form.component';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
+import { ContentComponent } from './../content/content.component';
 
 @NgModule({
   imports: [
@@ -26,10 +26,10 @@ import { FooterComponent } from '../footer/footer.component';
   declarations: [
     UserLoginComponent,
     UserProfileComponent,
+    UserFormComponent,
     HeaderComponent,
     FooterComponent,
-    ContentComponent,
-    UserFormComponent
+    ContentComponent
   ],
   exports: [
     HeaderComponent,
