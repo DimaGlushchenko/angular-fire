@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SharedModule } from '../../shared/shared.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { NavService } from './nav.service';
@@ -13,6 +14,7 @@ import { UserFormComponent } from '../users/user-form/user-form.component';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { ContentComponent } from './../content/content.component';
+import { MoviesListComponent } from '../../InfiniteScroll/movies-list/movies-list.component';
 
 @NgModule({
   imports: [
@@ -21,6 +23,7 @@ import { ContentComponent } from './../content/content.component';
     FormsModule,
     ReactiveFormsModule,
     RouterModule,
+    InfiniteScrollModule,
     BrowserAnimationsModule
   ],
   declarations: [
@@ -29,13 +32,14 @@ import { ContentComponent } from './../content/content.component';
     UserFormComponent,
     HeaderComponent,
     FooterComponent,
-    ContentComponent
+    ContentComponent,
+    MoviesListComponent
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
-    ContentComponent,
     UserProfileComponent,
+    MoviesListComponent
   ]
 })
 export class UiModule { }

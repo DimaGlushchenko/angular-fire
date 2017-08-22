@@ -4,7 +4,7 @@ import { LoadingSpinnerComponent } from '../ui/loading-spinner/loading-spinner.c
 
 @NgModule({
   imports: [
-    CommonModule,
+    CommonModule
   ],
   declarations: [
     LoadingSpinnerComponent

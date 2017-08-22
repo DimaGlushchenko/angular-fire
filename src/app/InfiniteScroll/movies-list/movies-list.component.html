@@ -1,0 +1,24 @@
+<h1>Movies</h1>
+
+<div *ngFor="let movie of movies | async">
+    <h2>{{ movie?.title }}</h2>
+    <p>Released in {{ movie?.year }}</p>
+    <img [src]="movie?.image" width="120px">
+</div>
+
+<div
+  infiniteScroll
+  [infiniteScrollDistance]="2"
+  [infiniteScrollThrottle]="1000"
+  (scrolled)="onScroll()">
+</div>
+
+<div *ngIf="!finished">
+ Loading more movies...
+</div>
+
+<div *ngIf="finished">
+  <h2>
+    End of database... That's all folks!
+  </h2>
+</div>
