@@ -15,6 +15,7 @@ import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { ContentComponent } from './../content/content.component';
 import { MoviesListComponent } from '../../InfiniteScroll/movies-list/movies-list.component';
+import { EmojisComponent } from "../emojis/emojis.component";
 
 @NgModule({
   imports: [
@@ -33,13 +34,15 @@ import { MoviesListComponent } from '../../InfiniteScroll/movies-list/movies-lis
     HeaderComponent,
     FooterComponent,
     ContentComponent,
-    MoviesListComponent
+    MoviesListComponent,
+    EmojisComponent
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
     UserProfileComponent,
-    MoviesListComponent
+    MoviesListComponent,
+    EmojisComponent
   ]
 })
 export class UiModule { }
