@@ -16,6 +16,8 @@ import { FooterComponent } from '../footer/footer.component';
 import { ContentComponent } from './../content/content.component';
 import { MoviesListComponent } from '../../InfiniteScroll/movies-list/movies-list.component';
 import { EmojisComponent } from "../emojis/emojis.component";
+import { ReversePipe } from "../../messages/pipe/reverse.pipe";
+import { ToastMessagesComponent } from "../../messages/toast-messages/toast-messages.component";
 
 @NgModule({
   imports: [
@@ -35,14 +37,18 @@ import { EmojisComponent } from "../emojis/emojis.component";
     FooterComponent,
     ContentComponent,
     MoviesListComponent,
-    EmojisComponent
+    EmojisComponent,
+    ReversePipe,
+    ToastMessagesComponent
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
     UserProfileComponent,
     MoviesListComponent,
-    EmojisComponent
+    EmojisComponent,
+    ReversePipe,
+    ToastMessagesComponent
   ]
 })
 export class UiModule { }
