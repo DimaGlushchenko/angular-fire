@@ -12,6 +12,7 @@
   },
   "private": true,
   "dependencies": {
+    "@agm/core": "^1.0.0-beta.1",
     "@angular/animations": "^4.3.5",
     "@angular/common": "^4.3.5",
     "@angular/compiler": "^4.3.5",
@@ -26,6 +27,7 @@
     "angularfire2": "^4.0.0-rc.2",
     "core-js": "^2.5.0",
     "firebase": "^4.3.0",
+    "geofire": "^4.1.2",
     "lodash": "^4.17.4",
     "ngx-infinite-scroll": "^0.5.1",
     "plotly.js": "^1.30.0",
