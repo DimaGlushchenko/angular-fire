@@ -10,8 +10,8 @@ import { HttpClientModule } from "@angular/common/http";
 import { RoutingModule } from "./routing.module";
 import { AppComponent } from "./app.component";
 import { SharedModule } from "./shared/shared.module";
+import { CoreModule } from "./services/core.module";
 import { UiModule } from "./ui/shared/ui.module";
-import { CoreModule } from "./core/core.module";
 
 import { AngularFireModule } from "angularfire2";
 import { AngularFireDatabaseModule } from "angularfire2/database";
@@ -20,13 +20,16 @@ import { AngularFireAuthModule } from "angularfire2/auth";
 export const firebaseConfig = environment.firebaseConfig;
 import { environment } from "../environments/environment";
 
-import { GoogleMapComponent } from "./geo/google-map/google-map.component";
 import { GeoService } from "./geo/geo.service";
+import { ChartService } from "./services/chart.service";
+import { GoogleMapComponent } from "./geo/google-map/google-map.component";
+import { AdListingComponent } from './ad-listing/ad-listing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GoogleMapComponent
+    GoogleMapComponent,
+    AdListingComponent
   ],
   
   imports: [
@@ -47,6 +50,6 @@ import { GeoService } from "./geo/geo.service";
     AngularFireAuthModule
   ],
   bootstrap: [AppComponent],
-  providers: [GeoService]
+  providers: [GeoService, ChartService]
 })
 export class AppModule {}

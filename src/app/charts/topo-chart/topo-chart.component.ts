@@ -1,11 +1,10 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { ChartService } from '../../core/chart.service';
+import { ChartService } from "../../services/chart.service";
 
 @Component({
   selector: 'topo-chart',
   templateUrl: './topo-chart.component.html',
-  styleUrls: ['./topo-chart.component.scss'],
-  providers: [ChartService]
+  styleUrls: ['./topo-chart.component.scss']
 })
 
 export class TopoChartComponent implements OnInit {

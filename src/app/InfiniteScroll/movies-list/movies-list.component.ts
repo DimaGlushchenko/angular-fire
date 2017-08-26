@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { InfiniteScroll } from '../../core/infiniteScroll.service';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject'
+import { InfiniteScroll } from "../../services/infiniteScroll.service";
 import * as _ from 'lodash'
 
 @Component({

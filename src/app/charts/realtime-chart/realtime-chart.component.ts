@@ -1,12 +1,11 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { ChartService } from '../../core/chart.service';
+import { ChartService } from "../../services/chart.service";
 import * as _ from "lodash";
 
 @Component({
   selector: 'realtime-chart',
   templateUrl: './realtime-chart.component.html',
   styleUrls: ['./realtime-chart.component.scss'],
-  providers: [ChartService]
 })
 
 export class RealtimeChartComponent implements OnInit {
