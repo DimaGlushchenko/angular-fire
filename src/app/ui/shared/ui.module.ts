@@ -39,16 +39,18 @@ import { ToastMessagesComponent } from "../../messages/toast-messages/toast-mess
     MoviesListComponent,
     EmojisComponent,
     ReversePipe,
-    ToastMessagesComponent
+    ToastMessagesComponent,
+    
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
+    ContentComponent,
     UserProfileComponent,
     MoviesListComponent,
     EmojisComponent,
     ReversePipe,
-    ToastMessagesComponent
+    ToastMessagesComponent,
   ]
 })
 export class UiModule { }

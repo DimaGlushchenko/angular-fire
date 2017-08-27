@@ -23,13 +23,11 @@ import { environment } from "../environments/environment";
 import { GeoService } from "./geo/geo.service";
 import { ChartService } from "./services/chart.service";
 import { GoogleMapComponent } from "./geo/google-map/google-map.component";
-import { AdListingComponent } from './ad-listing/ad-listing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GoogleMapComponent,
-    AdListingComponent
+    GoogleMapComponent
   ],
   
   imports: [
