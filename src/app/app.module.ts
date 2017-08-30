@@ -24,12 +24,17 @@ import { GeoService } from "./geo/geo.service";
 import { ChartService } from "./services/chart.service";
 import { GoogleMapComponent } from "./geo/google-map/google-map.component";
 
+import { StoreModule } from '@ngrx/store';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { ReduceComponent } from './reducers/reduce/reduce.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    GoogleMapComponent
+    GoogleMapComponent,
+    ReduceComponent
   ],
-  
+
   imports: [
     BrowserModule,
     RoutingModule,
@@ -42,12 +47,16 @@ import { GoogleMapComponent } from "./geo/google-map/google-map.component";
     UiModule,
     CoreModule,
     ItemModule,
+    AngularFireAuthModule,
+    AngularFireDatabaseModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AgmCoreModule.forRoot({ apiKey: environment.googleMapsKey }),
-    AngularFireDatabaseModule,
-    AngularFireAuthModule
+    StoreDevtoolsModule.instrument({
+      maxAge: 10 // number of states to retain
+    }),
+    //StoreModule.forRoot({ message: simpleReducer }),
   ],
   bootstrap: [AppComponent],
   providers: [GeoService, ChartService]
 })
-export class AppModule {}
+export class AppModule { }
