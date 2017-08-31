@@ -46,4 +46,4 @@ Thumbs.db
 src/environments
 
 #functions
-/functions
+/functions/node_modules

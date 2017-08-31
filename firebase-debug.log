@@ -1,0 +1,12 @@
+[debug] [2017-08-31T12:26:44.256Z] ----------------------------------------------------------------------
+[debug] [2017-08-31T12:26:44.266Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\awsin\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only functions
+[debug] [2017-08-31T12:26:44.267Z] CLI Version:   3.9.2
+[debug] [2017-08-31T12:26:44.267Z] Platform:      win32
+[debug] [2017-08-31T12:26:44.267Z] Node Version:  v8.4.0
+[debug] [2017-08-31T12:26:44.268Z] Time:          Thu Aug 31 2017 15:26:44 GMT+0300 (RTZ 2 (зима))
+[debug] [2017-08-31T12:26:44.268Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-31T12:26:44.341Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-31T12:26:44.342Z] > authorizing via signed-in user
+[debug] [2017-08-31T12:26:44.354Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/firestarterdev-72f95  
+ Thu Aug 31 2017 15:26:44 GMT+0300 (RTZ 2 (зима))

@@ -24,9 +24,12 @@ import { GeoService } from "./geo/geo.service";
 import { ChartService } from "./services/chart.service";
 import { GoogleMapComponent } from "./geo/google-map/google-map.component";
 
+import { ReduceComponent } from './reducers/reduce/reduce.component';
+import { EffectsModule } from "@ngrx/effects/effects";
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { ReduceComponent } from './reducers/reduce/reduce.component';
+import { PostEffects } from "./reducers/post.effects";
+import { postReducer } from "./reducers/post.reducer";
 
 @NgModule({
   declarations: [
@@ -51,10 +54,9 @@ import { ReduceComponent } from './reducers/reduce/reduce.component';
     AngularFireDatabaseModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AgmCoreModule.forRoot({ apiKey: environment.googleMapsKey }),
-    StoreDevtoolsModule.instrument({
-      maxAge: 10 // number of states to retain
-    }),
-    //StoreModule.forRoot({ message: simpleReducer }),
+    EffectsModule,
+    StoreModule.forRoot({ post: postReducer }),
+    StoreDevtoolsModule.instrument({ maxAge: 25 })
   ],
   bootstrap: [AppComponent],
   providers: [GeoService, ChartService]
