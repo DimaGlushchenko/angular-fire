@@ -7,6 +7,5 @@ import * as email from './email'
 import * as images from './images'
 
 export const sendEmail = email.sendEmail
-
 export const updateImage = images.updateImage
 export const resizeImage = images.resizeImage

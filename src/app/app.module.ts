@@ -1,4 +1,3 @@
-import { ItemModule } from "./items/shared/item.module";
 import { BrowserModule } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule } from "@angular/core";
@@ -11,6 +10,7 @@ import { RoutingModule } from "./routing.module";
 import { AppComponent } from "./app.component";
 import { SharedModule } from "./shared/shared.module";
 import { CoreModule } from "./services/core.module";
+import { ItemModule } from "./items/shared/item.module";
 import { UiModule } from "./ui/shared/ui.module";
 
 import { AngularFireModule } from "angularfire2";
@@ -31,6 +31,8 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { PostEffects } from "./reducers/post.effects";
 import { postReducer } from "./reducers/post.reducer";
 
+const APP_ID = 'angular-universal-firebase';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +41,7 @@ import { postReducer } from "./reducers/post.reducer";
   ],
 
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: APP_ID }),
     RoutingModule,
     FormsModule,
     ReactiveFormsModule,

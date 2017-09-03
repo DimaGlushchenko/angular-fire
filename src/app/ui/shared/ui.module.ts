@@ -19,6 +19,10 @@ import { EmojisComponent } from "../emojis/emojis.component";
 import { ReversePipe } from "../../messages/pipe/reverse.pipe";
 import { ToastMessagesComponent } from "../../messages/toast-messages/toast-messages.component";
 
+import { BasicChartComponent } from "../../charts/basic-chart/basic-chart.component";
+import { RealtimeChartComponent } from "../../charts/realtime-chart/realtime-chart.component";
+import { TopoChartComponent } from "../../charts/topo-chart/topo-chart.component";
+
 @NgModule({
   imports: [
     CommonModule,
@@ -40,7 +44,9 @@ import { ToastMessagesComponent } from "../../messages/toast-messages/toast-mess
     EmojisComponent,
     ReversePipe,
     ToastMessagesComponent,
-    
+    BasicChartComponent,
+    RealtimeChartComponent,
+    TopoChartComponent
   ],
   exports: [
     HeaderComponent,
