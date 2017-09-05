@@ -1,0 +1,28 @@
+<div class="modal" [class.is-active]="showModal">
+
+  <div class="modal-background"></div>
+
+  <div class="modal-content box" *ngIf="(balance | async) >= price">
+    <h2>Confirm your purchase!</h2>
+    <p>Current Balance: {{ balance | async | stripe }}</p>
+    <p>New balance: {{ (balance | async) - price | stripe }}.</p>
+    <button (click)="confirmPurchase()" class="button is-success">Confirm</button>
+    <button (click)="toggleModal()" class="button is-warning">Cancel</button>
+  </div>
+  
+  <div class="modal-content box" *ngIf="(balance | async) < price">
+    Insufficient Funds. Current balance: {{ (balance | async) | stripe }}
+  </div>
+
+  <button class="modal-close is-large" (click)="toggleModal()"></button>
+</div>
+
+<button (click)="toggleModal()" class="button is-info" *ngIf="!(hasPurchased | async)">
+  Buy Now for {{ price | stripe }}
+</button>
+
+<div class="button is-success" *ngIf="hasPurchased | async" disabled>
+  Already Purchased!
+</div>
+
+<p>Your Current Balance: {{ balance | async | stripe }}</p>
