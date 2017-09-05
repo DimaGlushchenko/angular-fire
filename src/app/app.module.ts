@@ -11,6 +11,7 @@ import { AppComponent } from "./app.component";
 import { SharedModule } from "./shared/shared.module";
 import { CoreModule } from "./services/core.module";
 import { ItemModule } from "./items/shared/item.module";
+import { PaymentModule } from './payments/payment.module';
 import { UiModule } from "./ui/shared/ui.module";
 
 import { AngularFireModule } from "angularfire2";
@@ -52,6 +53,7 @@ const APP_ID = 'angular-universal-firebase';
     UiModule,
     CoreModule,
     ItemModule,
+    PaymentModule,
     AngularFireAuthModule,
     AngularFireDatabaseModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
