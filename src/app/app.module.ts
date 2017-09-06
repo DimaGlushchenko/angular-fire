@@ -17,7 +17,6 @@ import { UiModule } from "./ui/shared/ui.module";
 import { AngularFireModule } from "angularfire2";
 import { AngularFireDatabaseModule } from "angularfire2/database";
 import { AngularFireAuthModule } from "angularfire2/auth";
-
 export const firebaseConfig = environment.firebaseConfig;
 import { environment } from "../environments/environment";
 
@@ -25,12 +24,14 @@ import { GeoService } from "./geo/geo.service";
 import { ChartService } from "./services/chart.service";
 import { GoogleMapComponent } from "./geo/google-map/google-map.component";
 
-import { ReduceComponent } from './reducers/reduce/reduce.component';
+import { ReducerComponent } from './reducers/reducer.component';
 import { EffectsModule } from "@ngrx/effects/effects";
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { PostEffects } from "./reducers/post.effects";
-import { postReducer } from "./reducers/post.reducer";
+import { UserEffects } from "./reducers/effects/user.effects";
+import { userReducer } from "./reducers/reducers/user.reducer";
+import { PostEffects } from "./reducers/effects/post.effects";
+import { postReducer } from "./reducers/reducers/post.reducer";
 
 const APP_ID = 'angular-universal-firebase';
 
@@ -38,7 +39,7 @@ const APP_ID = 'angular-universal-firebase';
   declarations: [
     AppComponent,
     GoogleMapComponent,
-    ReduceComponent
+    ReducerComponent
   ],
 
   imports: [
@@ -58,8 +59,8 @@ const APP_ID = 'angular-universal-firebase';
     AngularFireDatabaseModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AgmCoreModule.forRoot({ apiKey: environment.googleMapsKey }),
-    EffectsModule,
-    StoreModule.forRoot({ post: postReducer }),
+    StoreModule.forRoot({ post: postReducer, user: userReducer }),
+    EffectsModule.forRoot([PostEffects, UserEffects]),
     StoreDevtoolsModule.instrument({ maxAge: 25 })
   ],
   bootstrap: [AppComponent],

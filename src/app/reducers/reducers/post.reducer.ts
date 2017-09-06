@@ -1,20 +1,12 @@
-import * as PostActions from './post.actions';
-import { Post } from './post.model';
+import * as PostActions from '../actions/post.actions';
+import { Post } from '../models/post.model';
 
 export type Action = PostActions.All;
 
-
-/// Converts state objects to new state with ... spread operator
-// const newState = (...stateObjects) => {
-//   return Object.assign({}, ...stateObjects);
-// };
-
-
-/// Reducer function
+// Reducer function
 export function postReducer(state: Post, action: Action) {
 
   switch (action.type) {
-
     case PostActions.GET_POST:
       return { ...state, loading: true };
 
@@ -32,6 +24,6 @@ export function postReducer(state: Post, action: Action) {
 
     default:
       return state;
-
   }
+
 }
