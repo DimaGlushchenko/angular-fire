@@ -64,6 +64,6 @@ const APP_ID = 'angular-universal-firebase';
     StoreDevtoolsModule.instrument({ maxAge: 25 })
   ],
   bootstrap: [AppComponent],
-  providers: [GeoService, ChartService]
+  providers: [Logger, GeoService, ChartService]
 })
 export class AppModule { }
