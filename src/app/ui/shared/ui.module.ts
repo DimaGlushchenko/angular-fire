@@ -22,6 +22,7 @@ import { ToastMessagesComponent } from "../../messages/toast-messages/toast-mess
 import { BasicChartComponent } from "../../charts/basic-chart/basic-chart.component";
 import { RealtimeChartComponent } from "../../charts/realtime-chart/realtime-chart.component";
 import { TopoChartComponent } from "../../charts/topo-chart/topo-chart.component";
+import { MultiStateComponent } from "../../animation/multi-state/multi-state.component";
 
 @NgModule({
   imports: [
@@ -46,7 +47,8 @@ import { TopoChartComponent } from "../../charts/topo-chart/topo-chart.component
     ToastMessagesComponent,
     BasicChartComponent,
     RealtimeChartComponent,
-    TopoChartComponent
+    TopoChartComponent,
+    MultiStateComponent
   ],
   exports: [
     HeaderComponent,

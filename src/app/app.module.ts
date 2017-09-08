@@ -23,6 +23,7 @@ import { environment } from "../environments/environment";
 import { GeoService } from "./geo/geo.service";
 import { ChartService } from "./services/chart.service";
 import { GoogleMapComponent } from "./geo/google-map/google-map.component";
+import { Logger } from 'angular2-logger/core';
 
 import { ReducerComponent } from './reducers/reducer.component';
 import { EffectsModule } from "@ngrx/effects/effects";
@@ -60,7 +61,7 @@ const APP_ID = 'angular-universal-firebase';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AgmCoreModule.forRoot({ apiKey: environment.googleMapsKey }),
     StoreModule.forRoot({ post: postReducer, user: userReducer }),
-    EffectsModule.forRoot([PostEffects, UserEffects]),
+    EffectsModule,
     StoreDevtoolsModule.instrument({ maxAge: 25 })
   ],
   bootstrap: [AppComponent],

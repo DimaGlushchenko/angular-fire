@@ -1,9 +1,8 @@
-import { enableProdMode } from '@angular/core';
+import { enableProdMode, ApplicationRef } from '@angular/core';
 import { enableDebugTools } from "@angular/platform-browser";
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
-import { ApplicationRef } from "../functions/node_modules/@angular/core/core";
 import { environment } from './environments/environment';
 
 if (environment.production) {

@@ -14,12 +14,12 @@
     "firebase-admin": "~5.2.1",
     "firebase-functions": "^0.6.3",
     "rxjs": "^5.4.3",
-    "stripe": "^4.24.1",
+    "stripe": "^4.25.0",
     "zone.js": "^0.8.17"
   },
   "private": true,
   "devDependencies": {
-    "ts-loader": "^2.3.4",
+    "ts-loader": "^2.3.6",
     "webpack-node-externals": "^1.6.0"
   }
 }
