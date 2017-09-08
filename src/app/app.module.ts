@@ -25,7 +25,7 @@ import { ChartService } from "./services/chart.service";
 import { GoogleMapComponent } from "./geo/google-map/google-map.component";
 import { Logger } from 'angular2-logger/core';
 
-import { ReducerComponent } from './reducers/reducer.component';
+import { ReducerComponent } from "./reducers/component/reducer.component";
 import { EffectsModule } from "@ngrx/effects/effects";
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';

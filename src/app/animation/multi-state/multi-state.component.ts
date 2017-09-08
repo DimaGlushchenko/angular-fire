@@ -8,7 +8,7 @@ import { trigger, state, style, animate, transition, keyframes, query, stagger }
   animations: [
     trigger('photoState', [
       state('move', style({
-        transform: 'translateX(20%) translateY(100px)',
+        //transform: 'translateX(20%) translateY(100px)',
       })),
       state('enlarge', style({
         transform: 'scale(1.5)',

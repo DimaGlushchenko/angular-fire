@@ -4,7 +4,7 @@
       <img src="/assets/images/ngrx-firebase.png" alt="demo app with ngrx and firebase" width="200px" >
       <hr>
       <div *ngIf="user$ | async as user">     
-        <h1>Howdy, {{ user.displayName }}</h1>
+        <h1>Hello, {{ user.displayName }}</h1>
         <h4>{{ user.uid }}</h4>
         <button class="button is-danger" 
                 *ngIf="!user.uid"

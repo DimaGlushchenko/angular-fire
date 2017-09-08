@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs/Observable';
-import { Post } from "./models/post.model";
-import { User } from "./models/user.model";
-import * as postActions from './actions/post.actions';
-import * as userActions from './actions/user.actions';
+import { Post } from "../models/post.model";
+import { User } from "../models/user.model";
+import * as postActions from '../actions/post.actions';
+import * as userActions from '../actions/user.actions';
 
 interface AppState {
   post: Post;

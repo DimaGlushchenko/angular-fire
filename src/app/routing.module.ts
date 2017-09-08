@@ -7,8 +7,8 @@ import { ItemsListComponent } from './items/items-list/items-list.component';
 import { ContentComponent } from './ui/content/content.component';
 import { MakePaymentComponent } from "./payments/make-payment/make-payment.component";
 import { GoogleMapComponent } from "./geo/google-map/google-map.component";
-import { RealtimeChartComponent } from "./charts/realtime-chart/realtime-chart.component";
-import { ReducerComponent } from "./reducers/reducer.component";
+import { BasicChartComponent } from './charts/basic-chart/basic-chart.component';
+import { ReducerComponent } from './reducers/component/reducer.component';
 import { MultiStateComponent } from "./animation/multi-state/multi-state.component";
 
 const routes: Routes = [
@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'uploads', loadChildren: './uploads/shared/upload.module#UploadModule' },
   { path: 'payments', component: MakePaymentComponent, canActivate: [AuthGuard] },
   { path: 'dashboard', component: GoogleMapComponent, canActivate: [AuthGuard]},
-  { path: 'charts', component: RealtimeChartComponent, canActivate: [AuthGuard]},
+  { path: 'charts', component: BasicChartComponent, canActivate: [AuthGuard]},
   { path: 'reducer', component: ReducerComponent, canActivate: [AuthGuard]},
   { path: 'animation', component: MultiStateComponent, canActivate: [AuthGuard]},
 ];
