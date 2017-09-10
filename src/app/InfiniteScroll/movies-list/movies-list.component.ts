@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject'
-import { InfiniteScroll } from "../../services/infiniteScroll.service";
+import { Scroll } from "../../services/scroll.service";
 import * as _ from 'lodash'
 
 @Component({
   selector: 'movies-list',
   templateUrl: './movies-list.component.html',
   styleUrls: ['./movies-list.component.scss'],
-  providers: [InfiniteScroll]
+  providers: [Scroll]
 })
 
 export class MoviesListComponent implements OnInit {
@@ -18,7 +18,7 @@ export class MoviesListComponent implements OnInit {
   lastKey = ''      // key to offset next query from
   finished = false  // boolean when end of database is reached
 
-  constructor(private movieService: InfiniteScroll) { }
+  constructor(private movieService: Scroll) { }
 
   ngOnInit() {
     this.getMovies()
