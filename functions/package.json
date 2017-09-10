@@ -11,6 +11,8 @@
     "@angular/platform-browser": "^4.4.0-RC.0",
     "@angular/platform-server": "^4.4.0-RC.0",
     "express": "^4.15.4",
+    "lodash": "^4.17.4",
+    "request-promise": "^2.0.0",
     "firebase-admin": "~5.2.1",
     "firebase-functions": "^0.6.3",
     "rxjs": "^5.4.3",

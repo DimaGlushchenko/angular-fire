@@ -33,6 +33,7 @@ import { UserEffects } from "./reducers/effects/user.effects";
 import { userReducer } from "./reducers/reducers/user.reducer";
 import { PostEffects } from "./reducers/effects/post.effects";
 import { postReducer } from "./reducers/reducers/post.reducer";
+import { TranslatorComponent } from './translator/translator.component';
 
 const APP_ID = 'angular-universal-firebase';
 
@@ -40,7 +41,8 @@ const APP_ID = 'angular-universal-firebase';
   declarations: [
     AppComponent,
     GoogleMapComponent,
-    ReducerComponent
+    ReducerComponent,
+    TranslatorComponent
   ],
 
   imports: [
