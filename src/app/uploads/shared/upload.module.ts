@@ -9,6 +9,7 @@ import { UploadsListComponent } from '../uploads-list/uploads-list.component';
 import { UploadDetailComponent } from '../upload-detail/upload-detail.component';
 
 import { Routes, RouterModule } from '@angular/router';
+import { FileDropDirective } from './file-drop.directive';
 
 const routes: Routes = [
   { path: '', component: UploadsListComponent }
@@ -25,6 +26,7 @@ const routes: Routes = [
     UploadFormComponent,
     UploadsListComponent,
     UploadDetailComponent,
+    FileDropDirective
   ],
   providers: [
     UploadService

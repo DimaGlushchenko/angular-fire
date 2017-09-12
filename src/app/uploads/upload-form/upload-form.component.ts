@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { UploadService } from '../shared/upload.service';
 import { Upload } from '../shared/upload';
 import * as _ from "lodash";
@@ -8,18 +8,29 @@ import * as _ from "lodash";
   templateUrl: './upload-form.component.html',
   styleUrls: ['./upload-form.component.scss']
 })
-export class UploadFormComponent implements OnInit {
+export class UploadFormComponent {
 
   selectedFiles: FileList;
   currentUpload: Upload;
+  dropzoneActive: boolean = false;
 
   constructor(private upSvc: UploadService) { }
 
-  ngOnInit() {
+  dropzoneState($event: boolean) {
+    this.dropzoneActive = $event;
+  }
+
+  handleDrop(fileList: FileList) {
+    let filesIndes = _.range(fileList.length)
+
+    _.each(filesIndes, (idx) => {
+      this.currentUpload = new Upload(fileList[idx]);
+      this.upSvc.pushUpload(this.currentUpload)
+    })
   }
 
   detectFiles(event) {
-      this.selectedFiles = event.target.files;
+    this.selectedFiles = event.target.files;
   }
 
   uploadSingle() {
@@ -35,10 +46,8 @@ export class UploadFormComponent implements OnInit {
     let filesIndex = _.range(files.length)
     _.each(filesIndex, (idx) => {
       this.currentUpload = new Upload(files[idx]);
-      this.upSvc.pushUpload(this.currentUpload)}
-    )
+      this.upSvc.pushUpload(this.currentUpload)
+    })
   }
-
-
 
 }
