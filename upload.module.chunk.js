@@ -38,13 +38,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-var UploadModuleNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ɵcmf */](__WEBPACK_IMPORTED_MODULE_1__app_uploads_shared_upload_module__["a" /* UploadModule */], [], function (_l) {
-    return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵmod */]([__WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_0__angular_core__["k" /* ComponentFactoryResolver */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ɵCodegenComponentFactoryResolver */], [[8, [__WEBPACK_IMPORTED_MODULE_2__uploads_list_uploads_list_component_ngfactory__["a" /* UploadsListComponentNgFactory */]]], [3, __WEBPACK_IMPORTED_MODULE_0__angular_core__["k" /* ComponentFactoryResolver */]],
-            __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* NgModuleRef */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_3__angular_common__["n" /* NgLocalization */], __WEBPACK_IMPORTED_MODULE_3__angular_common__["m" /* NgLocaleLocalization */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* LOCALE_ID */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵmpd */](5120, __WEBPACK_IMPORTED_MODULE_4_angularfire2_app_firebase_app_module__["a" /* FirebaseApp */], __WEBPACK_IMPORTED_MODULE_5_angularfire2_app_index__["c" /* _firebaseAppFactory */], [__WEBPACK_IMPORTED_MODULE_4_angularfire2_app_firebase_app_module__["b" /* FirebaseAppConfigToken */],
-            __WEBPACK_IMPORTED_MODULE_6_angularfire2_angularfire2__["c" /* FirebaseAppName */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵmpd */](5120, __WEBPACK_IMPORTED_MODULE_7_angularfire2_database_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_8_angularfire2_database_database_module__["b" /* _getAngularFireDatabase */], [__WEBPACK_IMPORTED_MODULE_4_angularfire2_app_firebase_app_module__["a" /* FirebaseApp */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_9__app_uploads_shared_upload_service__["a" /* UploadService */], __WEBPACK_IMPORTED_MODULE_9__app_uploads_shared_upload_service__["a" /* UploadService */], [__WEBPACK_IMPORTED_MODULE_7_angularfire2_database_database__["a" /* AngularFireDatabase */]]),
-        __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_3__angular_common__["c" /* CommonModule */], __WEBPACK_IMPORTED_MODULE_3__angular_common__["c" /* CommonModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_10__app_shared_shared_module__["a" /* SharedModule */], __WEBPACK_IMPORTED_MODULE_10__app_shared_shared_module__["a" /* SharedModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_6_angularfire2_angularfire2__["a" /* AngularFireModule */], __WEBPACK_IMPORTED_MODULE_6_angularfire2_angularfire2__["a" /* AngularFireModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_8_angularfire2_database_database_module__["a" /* AngularFireDatabaseModule */], __WEBPACK_IMPORTED_MODULE_8_angularfire2_database_database_module__["a" /* AngularFireDatabaseModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_11__angular_router__["n" /* RouterModule */], __WEBPACK_IMPORTED_MODULE_11__angular_router__["n" /* RouterModule */], [[2, __WEBPACK_IMPORTED_MODULE_11__angular_router__["s" /* ɵa */]],
-            [2, __WEBPACK_IMPORTED_MODULE_11__angular_router__["k" /* Router */]]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_1__app_uploads_shared_upload_module__["a" /* UploadModule */], __WEBPACK_IMPORTED_MODULE_1__app_uploads_shared_upload_module__["a" /* UploadModule */], []),
-        __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵmpd */](1024, __WEBPACK_IMPORTED_MODULE_11__angular_router__["i" /* ROUTES */], function () {
+var UploadModuleNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵcmf */](__WEBPACK_IMPORTED_MODULE_1__app_uploads_shared_upload_module__["a" /* UploadModule */], [], function (_l) {
+    return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵmod */]([__WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_0__angular_core__["l" /* ComponentFactoryResolver */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵCodegenComponentFactoryResolver */], [[8, [__WEBPACK_IMPORTED_MODULE_2__uploads_list_uploads_list_component_ngfactory__["a" /* UploadsListComponentNgFactory */]]], [3, __WEBPACK_IMPORTED_MODULE_0__angular_core__["l" /* ComponentFactoryResolver */]],
+            __WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* NgModuleRef */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_3__angular_common__["p" /* NgLocalization */], __WEBPACK_IMPORTED_MODULE_3__angular_common__["o" /* NgLocaleLocalization */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* LOCALE_ID */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵmpd */](5120, __WEBPACK_IMPORTED_MODULE_4_angularfire2_app_firebase_app_module__["a" /* FirebaseApp */], __WEBPACK_IMPORTED_MODULE_5_angularfire2_app_index__["c" /* _firebaseAppFactory */], [__WEBPACK_IMPORTED_MODULE_4_angularfire2_app_firebase_app_module__["b" /* FirebaseAppConfigToken */],
+            __WEBPACK_IMPORTED_MODULE_6_angularfire2_angularfire2__["c" /* FirebaseAppName */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵmpd */](5120, __WEBPACK_IMPORTED_MODULE_7_angularfire2_database_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_8_angularfire2_database_database_module__["b" /* _getAngularFireDatabase */], [__WEBPACK_IMPORTED_MODULE_4_angularfire2_app_firebase_app_module__["a" /* FirebaseApp */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_9__app_uploads_shared_upload_service__["a" /* UploadService */], __WEBPACK_IMPORTED_MODULE_9__app_uploads_shared_upload_service__["a" /* UploadService */], [__WEBPACK_IMPORTED_MODULE_7_angularfire2_database_database__["a" /* AngularFireDatabase */]]),
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_3__angular_common__["c" /* CommonModule */], __WEBPACK_IMPORTED_MODULE_3__angular_common__["c" /* CommonModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_10__app_shared_shared_module__["a" /* SharedModule */], __WEBPACK_IMPORTED_MODULE_10__app_shared_shared_module__["a" /* SharedModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_6_angularfire2_angularfire2__["a" /* AngularFireModule */], __WEBPACK_IMPORTED_MODULE_6_angularfire2_angularfire2__["a" /* AngularFireModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_8_angularfire2_database_database_module__["a" /* AngularFireDatabaseModule */], __WEBPACK_IMPORTED_MODULE_8_angularfire2_database_database_module__["a" /* AngularFireDatabaseModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_11__angular_router__["n" /* RouterModule */], __WEBPACK_IMPORTED_MODULE_11__angular_router__["n" /* RouterModule */], [[2, __WEBPACK_IMPORTED_MODULE_11__angular_router__["s" /* ɵa */]],
+            [2, __WEBPACK_IMPORTED_MODULE_11__angular_router__["k" /* Router */]]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_1__app_uploads_shared_upload_module__["a" /* UploadModule */], __WEBPACK_IMPORTED_MODULE_1__app_uploads_shared_upload_module__["a" /* UploadModule */], []),
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵmpd */](1024, __WEBPACK_IMPORTED_MODULE_11__angular_router__["i" /* ROUTES */], function () {
             return [[{ path: '', component: __WEBPACK_IMPORTED_MODULE_12__app_uploads_uploads_list_uploads_list_component__["a" /* UploadsListComponent */] }]];
         }, [])]);
 });
@@ -76,12 +76,12 @@ var UploadModuleNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /*
 
 
 var styles_UploadDetailComponent = [__WEBPACK_IMPORTED_MODULE_0__upload_detail_component_scss_shim_ngstyle__["a" /* styles */]];
-var RenderType_UploadDetailComponent = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_14" /* ɵcrt */]({ encapsulation: 0,
+var RenderType_UploadDetailComponent = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵcrt */]({ encapsulation: 0,
     styles: styles_UploadDetailComponent, data: {} });
 function View_UploadDetailComponent_0(_l) {
-    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_38" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'strong', [], null, null, null, null, null)), (_l()(),
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['', ''])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n'])), (_l()(),
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'button', [['class', 'button is-danger is-small']], null, [[null, 'click']], function (_v, en, $event) {
+    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_42" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'strong', [], null, null, null, null, null)), (_l()(),
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['', ''])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n'])), (_l()(),
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'button', [['class', 'button is-danger is-small']], null, [[null, 'click']], function (_v, en, $event) {
                 var ad = true;
                 var _co = _v.component;
                 if (('click' === en)) {
@@ -89,19 +89,19 @@ function View_UploadDetailComponent_0(_l) {
                     ad = (pd_0 && ad);
                 }
                 return ad;
-            }, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['Delete'])),
-        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n']))], null, function (_ck, _v) {
+            }, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['Delete'])),
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n']))], null, function (_ck, _v) {
         var _co = _v.component;
         var currVal_0 = _co.upload.name;
         _ck(_v, 1, 0, currVal_0);
     });
 }
 function View_UploadDetailComponent_Host_0(_l) {
-    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_38" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'upload-detail', [], null, null, null, View_UploadDetailComponent_0, RenderType_UploadDetailComponent)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵdid */](114688, null, 0, __WEBPACK_IMPORTED_MODULE_2__app_uploads_upload_detail_upload_detail_component__["a" /* UploadDetailComponent */], [__WEBPACK_IMPORTED_MODULE_3__app_uploads_shared_upload_service__["a" /* UploadService */]], null, null)], function (_ck, _v) {
+    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_42" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'upload-detail', [], null, null, null, View_UploadDetailComponent_0, RenderType_UploadDetailComponent)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_18" /* ɵdid */](114688, null, 0, __WEBPACK_IMPORTED_MODULE_2__app_uploads_upload_detail_upload_detail_component__["a" /* UploadDetailComponent */], [__WEBPACK_IMPORTED_MODULE_3__app_uploads_shared_upload_service__["a" /* UploadService */]], null, null)], function (_ck, _v) {
         _ck(_v, 1, 0);
     }, null);
 }
-var UploadDetailComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵccf */]('upload-detail', __WEBPACK_IMPORTED_MODULE_2__app_uploads_upload_detail_upload_detail_component__["a" /* UploadDetailComponent */], View_UploadDetailComponent_Host_0, { upload: 'upload' }, {}, []);
+var UploadDetailComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵccf */]('upload-detail', __WEBPACK_IMPORTED_MODULE_2__app_uploads_upload_detail_upload_detail_component__["a" /* UploadDetailComponent */], View_UploadDetailComponent_Host_0, { upload: 'upload' }, {}, []);
 //# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZC1kZXRhaWwvdXBsb2FkLWRldGFpbC5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZC1kZXRhaWwvdXBsb2FkLWRldGFpbC5jb21wb25lbnQudHMiLCJuZzovLy9EOi9Qcm9qZWN0cy9Bbmd1bGFyL2FuZ3VsYXItZmlyZS9zcmMvYXBwL3VwbG9hZHMvdXBsb2FkLWRldGFpbC91cGxvYWQtZGV0YWlsLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZC1kZXRhaWwvdXBsb2FkLWRldGFpbC5jb21wb25lbnQudHMuVXBsb2FkRGV0YWlsQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPHN0cm9uZz57e3VwbG9hZC5uYW1lfX08L3N0cm9uZz5cclxuPGJ1dHRvbiAoY2xpY2spPSdkZWxldGVVcGxvYWQodXBsb2FkKScgY2xhc3M9XCJidXR0b24gaXMtZGFuZ2VyIGlzLXNtYWxsXCI+RGVsZXRlPC9idXR0b24+PGJyPlxyXG4iLCI8dXBsb2FkLWRldGFpbD48L3VwbG9hZC1kZXRhaWw+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7OztvQkNBQTtNQUFBLHdFQUFRO2FBQUEseUJBQXdCLHVDQUNoQzthQUFBO1VBQUE7WUFBQTtZQUFBO1lBQVE7Y0FBQTtjQUFBO1lBQUE7WUFBUjtVQUFBLGdDQUF5RTtNQUFlO1VBQUEsMERBQUk7VUFBQTs7SUFEcEY7SUFBQTs7OztvQkNBUjtNQUFBO3NDQUFBLFVBQUE7TUFBQTtJQUFBOzs7OzsifQ==
 //# sourceMappingURL=upload-detail.component.ngfactory.js.map
 
@@ -136,7 +136,8 @@ var styles = [''];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_uploads_upload_form_upload_form_component__ = __webpack_require__("../../../../../src/app/uploads/upload-form/upload-form.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_uploads_shared_upload_service__ = __webpack_require__("../../../../../src/app/uploads/shared/upload.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_uploads_shared_file_drop_directive__ = __webpack_require__("../../../../../src/app/uploads/shared/file-drop.directive.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_uploads_shared_upload_service__ = __webpack_require__("../../../../../src/app/uploads/shared/upload.service.ts");
 /**
  * @fileoverview This file is generated by the Angular template compiler.
  * Do not edit.
@@ -148,16 +149,17 @@ var styles = [''];
 
 
 
+
 var styles_UploadFormComponent = [__WEBPACK_IMPORTED_MODULE_0__upload_form_component_scss_shim_ngstyle__["a" /* styles */]];
-var RenderType_UploadFormComponent = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_14" /* ɵcrt */]({ encapsulation: 0,
+var RenderType_UploadFormComponent = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵcrt */]({ encapsulation: 0,
     styles: styles_UploadFormComponent, data: {} });
 function View_UploadFormComponent_1(_l) {
-    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_38" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 3, 'div', [], null, null, null, null, null)), (_l()(),
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 0, 'progress', [['class', 'progress is-success'], ['max', '100'], ['min', '1']], [[8,
+    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_42" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 3, 'div', [], null, null, null, null, null)), (_l()(),
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 0, 'progress', [['class', 'progress is-success'], ['max', '100'], ['min', '1']], [[8,
                 'value', 0]], null, null, null, null)), (_l()(),
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n    Progress: ', ' | ', '% Complete\n']))], null, function (_ck, _v) {
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n    Progress: ', ' | ', '% Complete\n']))], null, function (_ck, _v) {
         var _co = _v.component;
-        var currVal_0 = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵinlineInterpolate */](1, '', ((_co.currentUpload == null) ? null : _co.currentUpload.progress), '');
+        var currVal_0 = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_22" /* ɵinlineInterpolate */](1, '', ((_co.currentUpload == null) ? null : _co.currentUpload.progress), '');
         _ck(_v, 2, 0, currVal_0);
         var currVal_1 = ((_co.currentUpload == null) ? null : _co.currentUpload.name);
         var currVal_2 = ((_co.currentUpload == null) ? null : _co.currentUpload.progress);
@@ -165,11 +167,11 @@ function View_UploadFormComponent_1(_l) {
     });
 }
 function View_UploadFormComponent_0(_l) {
-    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_38" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ɵand */](16777216, null, null, 1, null, View_UploadFormComponent_1)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵdid */](16384, null, 0, __WEBPACK_IMPORTED_MODULE_2__angular_common__["l" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["Z" /* ViewContainerRef */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["W" /* TemplateRef */]], { ngIf: [0, 'ngIf'] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n\n'])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 25, 'div', [['class',
+    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_42" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_14" /* ɵand */](16777216, null, null, 1, null, View_UploadFormComponent_1)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_18" /* ɵdid */](16384, null, 0, __WEBPACK_IMPORTED_MODULE_2__angular_common__["n" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["_2" /* ViewContainerRef */],
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["Z" /* TemplateRef */]], { ngIf: [0, 'ngIf'] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n\n'])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 25, 'div', [['class',
                 'box']], null, null, null, null, null)),
-        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n  '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'h3', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['Single File Upload'])), (_l()(),
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 3, 'label', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n       '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 0, 'input', [['class', 'button'], ['type', 'file']], null, [[null, 'change']], function (_v, en, $event) {
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n  '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'h3', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['Single File Upload'])), (_l()(),
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 3, 'label', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n       '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 0, 'input', [['class', 'button'], ['type', 'file']], null, [[null, 'change']], function (_v, en, $event) {
             var ad = true;
             var _co = _v.component;
             if (('change' === en)) {
@@ -177,9 +179,9 @@ function View_UploadFormComponent_0(_l) {
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n    '])),
-        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'button', [['class', 'button is-primary']], [[8, 'disabled',
-                0]], [[null, 'click']], function (_v, en, $event) {
+        }, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n    '])),
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'button', [['class', 'button is-primary']], [[8, 'disabled', 0]], [[null,
+                'click']], function (_v, en, $event) {
             var ad = true;
             var _co = _v.component;
             if (('click' === en)) {
@@ -187,10 +189,9 @@ function View_UploadFormComponent_0(_l) {
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n      Upload Single\n    '])),
-        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 0, 'hr', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n    '])),
-        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'h3', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['Multiple File Upload'])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n    '])),
-        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 3, 'label', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n       '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 0, 'input', [['class', 'button'], ['multiple', ''], ['type', 'file']], null, [[null,
+        }, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n            Upload Single\n    '])),
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 0, 'hr', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'h3', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['Multiple File Upload'])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n    '])), (_l()(),
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 3, 'label', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n       '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 0, 'input', [['class', 'button'], ['multiple', ''], ['type', 'file']], null, [[null,
                 'change']], function (_v, en, $event) {
             var ad = true;
             var _co = _v.component;
@@ -199,8 +200,8 @@ function View_UploadFormComponent_0(_l) {
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n    '])),
-        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n\n      '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'button', [['class', 'button is-primary']], [[8, 'disabled',
+        }, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n    '])),
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n      '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'button', [['class', 'button is-primary']], [[8, 'disabled',
                 0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             var _co = _v.component;
@@ -209,11 +210,48 @@ function View_UploadFormComponent_0(_l) {
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n        Upload Multiple\n      '])),
-        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n'])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n']))], function (_ck, _v) {
+        }, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n              Upload Multiple\n      '])),
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n'])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n    \n'])),
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 12, 'div', [['class', 'box']], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'h2', [], null, null, null, null, null)),
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['Drop File'])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 6, 'div', [['class',
+                'dropzone'], ['fileDrop', '']], null, [[null, 'filesDropped'],
+            [null, 'filesHovered'], [null, 'drop'], [null, 'dragover'],
+            [null, 'dragleave']], function (_v, en, $event) {
+            var ad = true;
+            var _co = _v.component;
+            if (('drop' === en)) {
+                var pd_0 = (__WEBPACK_IMPORTED_MODULE_1__angular_core__["_33" /* ɵnov */](_v, 38).onDrop($event) !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('dragover' === en)) {
+                var pd_1 = (__WEBPACK_IMPORTED_MODULE_1__angular_core__["_33" /* ɵnov */](_v, 38).onDragOver($event) !== false);
+                ad = (pd_1 && ad);
+            }
+            if (('dragleave' === en)) {
+                var pd_2 = (__WEBPACK_IMPORTED_MODULE_1__angular_core__["_33" /* ɵnov */](_v, 38).onDragLeave($event) !== false);
+                ad = (pd_2 && ad);
+            }
+            if (('filesDropped' === en)) {
+                var pd_3 = (_co.handleDrop($event) !== false);
+                ad = (pd_3 && ad);
+            }
+            if (('filesHovered' === en)) {
+                var pd_4 = (_co.dropzoneState($event) !== false);
+                ad = (pd_4 && ad);
+            }
+            return ad;
+        }, null, null)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_18" /* ɵdid */](278528, null, 0, __WEBPACK_IMPORTED_MODULE_2__angular_common__["l" /* NgClass */], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["z" /* IterableDiffers */],
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* KeyValueDiffers */], __WEBPACK_IMPORTED_MODULE_1__angular_core__["o" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_1__angular_core__["P" /* Renderer */]], { klass: [0, 'klass'], ngClass: [1,
+                'ngClass'] }, null), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_35" /* ɵpod */]({ 'active': 0 }), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_18" /* ɵdid */](16384, null, 0, __WEBPACK_IMPORTED_MODULE_4__app_uploads_shared_file_drop_directive__["a" /* FileDropDirective */], [], null, { filesDropped: 'filesDropped',
+            filesHovered: 'filesHovered' }), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n         '])),
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 0, 'i', [['class', 'fa fa-cloud-upload fa-2x']], null, null, null, null, null)),
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n']))], function (_ck, _v) {
         var _co = _v.component;
         var currVal_0 = _co.currentUpload;
         _ck(_v, 1, 0, currVal_0);
+        var currVal_3 = 'dropzone';
+        var currVal_4 = _ck(_v, 37, 0, _co.dropzoneActive);
+        _ck(_v, 36, 0, currVal_3, currVal_4);
     }, function (_ck, _v) {
         var _co = _v.component;
         var currVal_1 = !_co.selectedFiles;
@@ -223,12 +261,10 @@ function View_UploadFormComponent_0(_l) {
     });
 }
 function View_UploadFormComponent_Host_0(_l) {
-    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_38" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'upload-form', [], null, null, null, View_UploadFormComponent_0, RenderType_UploadFormComponent)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵdid */](114688, null, 0, __WEBPACK_IMPORTED_MODULE_3__app_uploads_upload_form_upload_form_component__["a" /* UploadFormComponent */], [__WEBPACK_IMPORTED_MODULE_4__app_uploads_shared_upload_service__["a" /* UploadService */]], null, null)], function (_ck, _v) {
-        _ck(_v, 1, 0);
-    }, null);
+    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_42" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'upload-form', [], null, null, null, View_UploadFormComponent_0, RenderType_UploadFormComponent)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_18" /* ɵdid */](49152, null, 0, __WEBPACK_IMPORTED_MODULE_3__app_uploads_upload_form_upload_form_component__["a" /* UploadFormComponent */], [__WEBPACK_IMPORTED_MODULE_5__app_uploads_shared_upload_service__["a" /* UploadService */]], null, null)], null, null);
 }
-var UploadFormComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵccf */]('upload-form', __WEBPACK_IMPORTED_MODULE_3__app_uploads_upload_form_upload_form_component__["a" /* UploadFormComponent */], View_UploadFormComponent_Host_0, {}, {}, []);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZC1mb3JtL3VwbG9hZC1mb3JtLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9EOi9Qcm9qZWN0cy9Bbmd1bGFyL2FuZ3VsYXItZmlyZS9zcmMvYXBwL3VwbG9hZHMvdXBsb2FkLWZvcm0vdXBsb2FkLWZvcm0uY29tcG9uZW50LnRzIiwibmc6Ly8vRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZC1mb3JtL3VwbG9hZC1mb3JtLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZC1mb3JtL3VwbG9hZC1mb3JtLmNvbXBvbmVudC50cy5VcGxvYWRGb3JtQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGRpdiAqbmdJZj1cImN1cnJlbnRVcGxvYWRcIj5cclxuICAgIDxwcm9ncmVzcyBjbGFzcz1cInByb2dyZXNzIGlzLXN1Y2Nlc3NcIiBtaW49MSBtYXg9MTAwIHZhbHVlPVwie3sgY3VycmVudFVwbG9hZD8ucHJvZ3Jlc3MgfX1cIj48L3Byb2dyZXNzPlxyXG5cclxuICAgIFByb2dyZXNzOiB7e2N1cnJlbnRVcGxvYWQ/Lm5hbWV9fSB8IHt7Y3VycmVudFVwbG9hZD8ucHJvZ3Jlc3N9fSUgQ29tcGxldGVcclxuPC9kaXY+XHJcblxyXG5cclxuPGRpdiBjbGFzcz1cImJveFwiPlxyXG5cclxuICA8aDM+U2luZ2xlIEZpbGUgVXBsb2FkPC9oMz5cclxuXHJcbiAgICA8bGFiZWw+XHJcbiAgICAgICA8aW5wdXQgdHlwZT1cImZpbGVcIiBjbGFzcz1cImJ1dHRvblwiIChjaGFuZ2UpPVwiZGV0ZWN0RmlsZXMoJGV2ZW50KVwiPlxyXG4gICAgPC9sYWJlbD5cclxuXHJcbiAgICA8YnV0dG9uIGNsYXNzPVwiYnV0dG9uIGlzLXByaW1hcnlcIlxyXG4gICAgICAgICAgICBbZGlzYWJsZWRdPVwiIXNlbGVjdGVkRmlsZXNcIlxyXG4gICAgICAgICAgICAoY2xpY2spPVwidXBsb2FkU2luZ2xlKClcIj5cclxuXHJcbiAgICAgIFVwbG9hZCBTaW5nbGVcclxuICAgIDwvYnV0dG9uPlxyXG5cclxuICAgIDxocj5cclxuXHJcbiAgICA8aDM+TXVsdGlwbGUgRmlsZSBVcGxvYWQ8L2gzPlxyXG5cclxuICAgIDxsYWJlbD5cclxuICAgICAgIDxpbnB1dCB0eXBlPVwiZmlsZVwiIGNsYXNzPVwiYnV0dG9uXCIgKGNoYW5nZSk9XCJkZXRlY3RGaWxlcygkZXZlbnQpXCIgbXVsdGlwbGU+XHJcbiAgICA8L2xhYmVsPlxyXG5cclxuXHJcbiAgICAgIDxidXR0b24gY2xhc3M9XCJidXR0b24gaXMtcHJpbWFyeVwiXHJcbiAgICAgICAgICAgICAgW2Rpc2FibGVkXT1cIiFzZWxlY3RlZEZpbGVzXCJcclxuICAgICAgICAgICAgICAoY2xpY2spPVwidXBsb2FkTXVsdGkoKVwiPlxyXG5cclxuICAgICAgICBVcGxvYWQgTXVsdGlwbGVcclxuICAgICAgPC9idXR0b24+XHJcbjwvZGl2PlxyXG4iLCI8dXBsb2FkLWZvcm0+PC91cGxvYWQtZm9ybT4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7OztvQkNBQTtNQUFBLHdFQUEyQjthQUFBLDRCQUN2QjtNQUFBO1VBQUEsc0VBQXFHO2FBQUE7OztRQUFqRDtZQUFBO1FBQXBELFdBQW9ELFNBQXBEO1FBQXFHO1FBQUE7UUFBQTs7OztvQkFEekc7TUFBQSxvQ0FBQTtvQkFBQSxtQ0FJTTtNQUFBLGFBR047TUFBQTtNQUFpQiwyQ0FFZjtVQUFBO1VBQUEsZ0JBQUksdURBQXVCO2lCQUFBLDhCQUV6QjtVQUFBO1VBQUEsZ0JBQU8sOENBQ0o7VUFBQTtVQUFBO1lBQUE7WUFBQTtZQUFrQztjQUFBO2NBQUE7WUFBQTtZQUFsQztVQUFBLGdDQUFpRTtNQUM1RCw2Q0FFUjtVQUFBO2NBQUE7WUFBQTtZQUFBO1lBRVE7Y0FBQTtjQUFBO1lBQUE7WUFGUjtVQUFBLGdDQUVpQztNQUd4Qiw2Q0FFVDtVQUFBO1VBQUEsOEJBQUk7TUFFSjtVQUFBLDBEQUFJO1VBQUEsMkJBQXlCO01BRTdCO1VBQUEsMERBQU87VUFBQSxnQkFDSjtVQUFBO2NBQUE7WUFBQTtZQUFBO1lBQWtDO2NBQUE7Y0FBQTtZQUFBO1lBQWxDO1VBQUEsZ0NBQTBFO01BQ3JFLGlEQUdOO1VBQUE7Y0FBQTtZQUFBO1lBQUE7WUFFUTtjQUFBO2NBQUE7WUFBQTtZQUZSO1VBQUEsZ0NBRWdDO01BR3ZCLHVDQUNUOzs7UUFyQ0Q7UUFBTCxXQUFLLFNBQUw7OztRQWdCWTtRQURSLFlBQ1EsU0FEUjtRQWlCVTtRQURSLFlBQ1EsU0FEUjs7OztvQkMvQk47TUFBQTtvQ0FBQSxVQUFBO01BQUE7SUFBQTs7OzsifQ==
+var UploadFormComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵccf */]('upload-form', __WEBPACK_IMPORTED_MODULE_3__app_uploads_upload_form_upload_form_component__["a" /* UploadFormComponent */], View_UploadFormComponent_Host_0, {}, {}, []);
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZC1mb3JtL3VwbG9hZC1mb3JtLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9EOi9Qcm9qZWN0cy9Bbmd1bGFyL2FuZ3VsYXItZmlyZS9zcmMvYXBwL3VwbG9hZHMvdXBsb2FkLWZvcm0vdXBsb2FkLWZvcm0uY29tcG9uZW50LnRzIiwibmc6Ly8vRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZC1mb3JtL3VwbG9hZC1mb3JtLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZC1mb3JtL3VwbG9hZC1mb3JtLmNvbXBvbmVudC50cy5VcGxvYWRGb3JtQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGRpdiAqbmdJZj1cImN1cnJlbnRVcGxvYWRcIj5cclxuICAgIDxwcm9ncmVzcyBjbGFzcz1cInByb2dyZXNzIGlzLXN1Y2Nlc3NcIiBtaW49MSBtYXg9MTAwIHZhbHVlPVwie3sgY3VycmVudFVwbG9hZD8ucHJvZ3Jlc3MgfX1cIj48L3Byb2dyZXNzPlxyXG4gICAgUHJvZ3Jlc3M6IHt7Y3VycmVudFVwbG9hZD8ubmFtZX19IHwge3tjdXJyZW50VXBsb2FkPy5wcm9ncmVzc319JSBDb21wbGV0ZVxyXG48L2Rpdj5cclxuXHJcbjxkaXYgY2xhc3M9XCJib3hcIj5cclxuICA8aDM+U2luZ2xlIEZpbGUgVXBsb2FkPC9oMz5cclxuICAgIDxsYWJlbD5cclxuICAgICAgIDxpbnB1dCB0eXBlPVwiZmlsZVwiIGNsYXNzPVwiYnV0dG9uXCIgKGNoYW5nZSk9XCJkZXRlY3RGaWxlcygkZXZlbnQpXCI+XHJcbiAgICA8L2xhYmVsPlxyXG4gICAgPGJ1dHRvbiBjbGFzcz1cImJ1dHRvbiBpcy1wcmltYXJ5XCJcclxuICAgICAgICAgICAgW2Rpc2FibGVkXT1cIiFzZWxlY3RlZEZpbGVzXCJcclxuICAgICAgICAgICAgKGNsaWNrKT1cInVwbG9hZFNpbmdsZSgpXCI+XHJcbiAgICAgICAgICAgIFVwbG9hZCBTaW5nbGVcclxuICAgIDwvYnV0dG9uPlxyXG4gICAgPGhyPlxyXG5cclxuICAgIDxoMz5NdWx0aXBsZSBGaWxlIFVwbG9hZDwvaDM+XHJcbiAgICA8bGFiZWw+XHJcbiAgICAgICA8aW5wdXQgdHlwZT1cImZpbGVcIiBjbGFzcz1cImJ1dHRvblwiIChjaGFuZ2UpPVwiZGV0ZWN0RmlsZXMoJGV2ZW50KVwiIG11bHRpcGxlPlxyXG4gICAgPC9sYWJlbD5cclxuICAgICAgPGJ1dHRvbiBjbGFzcz1cImJ1dHRvbiBpcy1wcmltYXJ5XCJcclxuICAgICAgICAgICAgICBbZGlzYWJsZWRdPVwiIXNlbGVjdGVkRmlsZXNcIlxyXG4gICAgICAgICAgICAgIChjbGljayk9XCJ1cGxvYWRNdWx0aSgpXCI+XHJcbiAgICAgICAgICAgICAgVXBsb2FkIE11bHRpcGxlXHJcbiAgICAgIDwvYnV0dG9uPlxyXG48L2Rpdj5cclxuICAgIFxyXG48ZGl2IGNsYXNzPVwiYm94XCI+XHJcbiAgICA8aDI+RHJvcCBGaWxlPC9oMj5cclxuICAgIDxkaXYgY2xhc3M9XCJkcm9wem9uZVwiXHJcbiAgICAgICAgIGZpbGVEcm9wXHJcbiAgICAgICAgIChmaWxlc0Ryb3BwZWQpPVwiaGFuZGxlRHJvcCgkZXZlbnQpXCJcclxuICAgICAgICAgKGZpbGVzSG92ZXJlZCk9XCJkcm9wem9uZVN0YXRlKCRldmVudClcIlxyXG4gICAgICAgICBbbmdDbGFzc109XCJ7J2FjdGl2ZSc6IGRyb3B6b25lQWN0aXZlfVwiPlxyXG4gICAgICAgICA8aSBjbGFzcz1cImZhIGZhLWNsb3VkLXVwbG9hZCBmYS0yeFwiPjwvaT5cclxuICAgIDwvZGl2PlxyXG48L2Rpdj4iLCI8dXBsb2FkLWZvcm0+PC91cGxvYWQtZm9ybT4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7b0JDQUE7TUFBQSx3RUFBMkI7YUFBQSw0QkFDdkI7TUFBQTtVQUFBLHNFQUFxRzthQUFBOzs7UUFBakQ7WUFBQTtRQUFwRCxXQUFvRCxTQUFwRDtRQUFxRztRQUFBO1FBQUE7Ozs7b0JBRHpHO01BQUEsb0NBQUE7b0JBQUEsbUNBR007TUFBQSxXQUVOO01BQUE7TUFBaUIseUNBQ2Y7VUFBQTtVQUFBLGdCQUFJLHVEQUF1QjtpQkFBQSw0QkFDekI7VUFBQTtVQUFBLGdCQUFPLDhDQUNKO1VBQUE7VUFBQTtZQUFBO1lBQUE7WUFBa0M7Y0FBQTtjQUFBO1lBQUE7WUFBbEM7VUFBQSxnQ0FBaUU7TUFDNUQsMkNBQ1I7VUFBQTtjQUFBO1lBQUE7WUFBQTtZQUVRO2NBQUE7Y0FBQTtZQUFBO1lBRlI7VUFBQSxnQ0FFaUM7TUFFeEIsMkNBQ1Q7VUFBQTtVQUFBLGdCQUFJLDZDQUVKO1VBQUE7VUFBQSw0Q0FBSTtVQUFBLDJCQUF5QiwyQ0FDN0I7aUJBQUE7Y0FBQSwwREFBTztVQUFBLGdCQUNKO1VBQUE7Y0FBQTtZQUFBO1lBQUE7WUFBa0M7Y0FBQTtjQUFBO1lBQUE7WUFBbEM7VUFBQSxnQ0FBMEU7TUFDckUsNkNBQ047VUFBQTtjQUFBO1lBQUE7WUFBQTtZQUVRO2NBQUE7Y0FBQTtZQUFBO1lBRlI7VUFBQSxnQ0FFZ0M7TUFFdkIsdUNBQ1Q7TUFFTjtVQUFBLDBEQUFpQjtVQUFBLGFBQ2I7VUFBQTtNQUFJLDhDQUFjO1VBQUEsYUFDbEI7VUFBQTtVQUFBO1VBQUE7UUFBQTtRQUFBO1FBQUE7VUFBQTtVQUFBO1FBQUE7UUFBQTtVQUFBO1VBQUE7UUFBQTtRQUFBO1VBQUE7VUFBQTtRQUFBO1FBRUs7VUFBQTtVQUFBO1FBQUE7UUFDQTtVQUFBO1VBQUE7UUFBQTtRQUhMO01BQUEsdUNBQUE7c0RBQUE7VUFBQSxrQ0FJSyxzQkFKTDtVQUFBO2NBQUEsOEJBSTRDO01BQ3ZDO1VBQUE7TUFBd0MsMkNBQ3ZDOzs7UUFwQ0w7UUFBTCxXQUFLLFNBQUw7UUE4QlM7UUFJQTtRQUpMLFlBQUssVUFJQSxTQUpMOzs7UUFuQlE7UUFEUixZQUNRLFNBRFI7UUFZVTtRQURSLFlBQ1EsU0FEUjs7OztvQkNyQk47TUFBQTtvQ0FBQSxVQUFBO01BQUE7OzsifQ==
 //# sourceMappingURL=upload-form.component.ngfactory.js.map
 
 /***/ }),
@@ -287,45 +323,44 @@ var styles = [''];
 
 
 var styles_UploadsListComponent = [__WEBPACK_IMPORTED_MODULE_0__uploads_list_component_scss_shim_ngstyle__["a" /* styles */]];
-var RenderType_UploadsListComponent = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_14" /* ɵcrt */]({ encapsulation: 0,
+var RenderType_UploadsListComponent = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵcrt */]({ encapsulation: 0,
     styles: styles_UploadsListComponent, data: {} });
 function View_UploadsListComponent_1(_l) {
-    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_38" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 4, 'div', [], null, null, null, null, null)), (_l()(),
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n  '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'upload-detail', [], null, null, null, __WEBPACK_IMPORTED_MODULE_2__upload_detail_upload_detail_component_ngfactory__["b" /* View_UploadDetailComponent_0 */], __WEBPACK_IMPORTED_MODULE_2__upload_detail_upload_detail_component_ngfactory__["a" /* RenderType_UploadDetailComponent */])), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵdid */](114688, null, 0, __WEBPACK_IMPORTED_MODULE_3__app_uploads_upload_detail_upload_detail_component__["a" /* UploadDetailComponent */], [__WEBPACK_IMPORTED_MODULE_4__app_uploads_shared_upload_service__["a" /* UploadService */]], { upload: [0, 'upload'] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n']))], function (_ck, _v) {
+    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_42" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 4, 'div', [], null, null, null, null, null)), (_l()(),
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n  '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'upload-detail', [], null, null, null, __WEBPACK_IMPORTED_MODULE_2__upload_detail_upload_detail_component_ngfactory__["b" /* View_UploadDetailComponent_0 */], __WEBPACK_IMPORTED_MODULE_2__upload_detail_upload_detail_component_ngfactory__["a" /* RenderType_UploadDetailComponent */])), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_18" /* ɵdid */](114688, null, 0, __WEBPACK_IMPORTED_MODULE_3__app_uploads_upload_detail_upload_detail_component__["a" /* UploadDetailComponent */], [__WEBPACK_IMPORTED_MODULE_4__app_uploads_shared_upload_service__["a" /* UploadService */]], { upload: [0, 'upload'] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n']))], function (_ck, _v) {
         var currVal_0 = _v.context.$implicit;
         _ck(_v, 3, 0, currVal_0);
     }, null);
 }
 function View_UploadsListComponent_2(_l) {
-    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_38" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'loading-spinner', [], null, null, null, __WEBPACK_IMPORTED_MODULE_5__ui_loading_spinner_loading_spinner_component_ngfactory__["b" /* View_LoadingSpinnerComponent_0 */], __WEBPACK_IMPORTED_MODULE_5__ui_loading_spinner_loading_spinner_component_ngfactory__["a" /* RenderType_LoadingSpinnerComponent */])), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵdid */](114688, null, 0, __WEBPACK_IMPORTED_MODULE_6__app_ui_loading_spinner_loading_spinner_component__["a" /* LoadingSpinnerComponent */], [], null, null)], function (_ck, _v) {
+    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_42" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'loading-spinner', [], null, null, null, __WEBPACK_IMPORTED_MODULE_5__ui_loading_spinner_loading_spinner_component_ngfactory__["b" /* View_LoadingSpinnerComponent_0 */], __WEBPACK_IMPORTED_MODULE_5__ui_loading_spinner_loading_spinner_component_ngfactory__["a" /* RenderType_LoadingSpinnerComponent */])), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_18" /* ɵdid */](114688, null, 0, __WEBPACK_IMPORTED_MODULE_6__app_ui_loading_spinner_loading_spinner_component__["a" /* LoadingSpinnerComponent */], [], null, null)], function (_ck, _v) {
         _ck(_v, 1, 0);
     }, null);
 }
 function View_UploadsListComponent_0(_l) {
-    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_38" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'h3', [], null, null, null, null, null)), (_l()(),
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['File Uploads'])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n'])),
-        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ɵand */](16777216, null, null, 2, null, View_UploadsListComponent_1)),
-        __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵdid */](802816, null, 0, __WEBPACK_IMPORTED_MODULE_7__angular_common__["k" /* NgForOf */], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["Z" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_1__angular_core__["W" /* TemplateRef */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["y" /* IterableDiffers */]], { ngForOf: [0, 'ngForOf'] }, null), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_31" /* ɵpid */](131072, __WEBPACK_IMPORTED_MODULE_7__angular_common__["b" /* AsyncPipe */], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["i" /* ChangeDetectorRef */]]), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n'])),
-        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ɵand */](16777216, null, null, 1, null, View_UploadsListComponent_2)),
-        __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵdid */](16384, null, 0, __WEBPACK_IMPORTED_MODULE_7__angular_common__["l" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["Z" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_1__angular_core__["W" /* TemplateRef */]], { ngIf: [0,
-                'ngIf'] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n'])), (_l()(),
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 0, 'hr', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n\n'])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'upload-form', [], null, null, null, __WEBPACK_IMPORTED_MODULE_8__upload_form_upload_form_component_ngfactory__["b" /* View_UploadFormComponent_0 */], __WEBPACK_IMPORTED_MODULE_8__upload_form_upload_form_component_ngfactory__["a" /* RenderType_UploadFormComponent */])), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵdid */](114688, null, 0, __WEBPACK_IMPORTED_MODULE_9__app_uploads_upload_form_upload_form_component__["a" /* UploadFormComponent */], [__WEBPACK_IMPORTED_MODULE_4__app_uploads_shared_upload_service__["a" /* UploadService */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_36" /* ɵted */](null, ['\n']))], function (_ck, _v) {
+    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_42" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'h3', [], null, null, null, null, null)), (_l()(),
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['File Uploads'])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n\n'])),
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_14" /* ɵand */](16777216, null, null, 2, null, View_UploadsListComponent_1)),
+        __WEBPACK_IMPORTED_MODULE_1__angular_core__["_18" /* ɵdid */](802816, null, 0, __WEBPACK_IMPORTED_MODULE_7__angular_common__["m" /* NgForOf */], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["_2" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_1__angular_core__["Z" /* TemplateRef */],
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["z" /* IterableDiffers */]], { ngForOf: [0, 'ngForOf'] }, null), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_34" /* ɵpid */](131072, __WEBPACK_IMPORTED_MODULE_7__angular_common__["b" /* AsyncPipe */], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["i" /* ChangeDetectorRef */]]), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n\n'])),
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_14" /* ɵand */](16777216, null, null, 1, null, View_UploadsListComponent_2)),
+        __WEBPACK_IMPORTED_MODULE_1__angular_core__["_18" /* ɵdid */](16384, null, 0, __WEBPACK_IMPORTED_MODULE_7__angular_common__["n" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["_2" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_1__angular_core__["Z" /* TemplateRef */]], { ngIf: [0,
+                'ngIf'] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n\n'])), (_l()(),
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 0, 'hr', [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n\n'])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'upload-form', [], null, null, null, __WEBPACK_IMPORTED_MODULE_8__upload_form_upload_form_component_ngfactory__["b" /* View_UploadFormComponent_0 */], __WEBPACK_IMPORTED_MODULE_8__upload_form_upload_form_component_ngfactory__["a" /* RenderType_UploadFormComponent */])), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_18" /* ɵdid */](49152, null, 0, __WEBPACK_IMPORTED_MODULE_9__app_uploads_upload_form_upload_form_component__["a" /* UploadFormComponent */], [__WEBPACK_IMPORTED_MODULE_4__app_uploads_shared_upload_service__["a" /* UploadService */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_40" /* ɵted */](null, ['\n']))], function (_ck, _v) {
         var _co = _v.component;
-        var currVal_0 = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_37" /* ɵunv */](_v, 4, 0, __WEBPACK_IMPORTED_MODULE_1__angular_core__["_30" /* ɵnov */](_v, 5).transform(_co.uploads));
+        var currVal_0 = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_41" /* ɵunv */](_v, 4, 0, __WEBPACK_IMPORTED_MODULE_1__angular_core__["_33" /* ɵnov */](_v, 5).transform(_co.uploads));
         _ck(_v, 4, 0, currVal_0);
         var currVal_1 = _co.showSpinner;
         _ck(_v, 8, 0, currVal_1);
-        _ck(_v, 13, 0);
     }, null);
 }
 function View_UploadsListComponent_Host_0(_l) {
-    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_38" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵeld */](0, null, null, 1, 'uploads-list', [], null, null, null, View_UploadsListComponent_0, RenderType_UploadsListComponent)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵdid */](114688, null, 0, __WEBPACK_IMPORTED_MODULE_10__app_uploads_uploads_list_uploads_list_component__["a" /* UploadsListComponent */], [__WEBPACK_IMPORTED_MODULE_4__app_uploads_shared_upload_service__["a" /* UploadService */]], null, null)], function (_ck, _v) {
+    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_42" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* ɵeld */](0, null, null, 1, 'uploads-list', [], null, null, null, View_UploadsListComponent_0, RenderType_UploadsListComponent)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_18" /* ɵdid */](114688, null, 0, __WEBPACK_IMPORTED_MODULE_10__app_uploads_uploads_list_uploads_list_component__["a" /* UploadsListComponent */], [__WEBPACK_IMPORTED_MODULE_4__app_uploads_shared_upload_service__["a" /* UploadService */]], null, null)], function (_ck, _v) {
         _ck(_v, 1, 0);
     }, null);
 }
-var UploadsListComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵccf */]('uploads-list', __WEBPACK_IMPORTED_MODULE_10__app_uploads_uploads_list_uploads_list_component__["a" /* UploadsListComponent */], View_UploadsListComponent_Host_0, {}, {}, []);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZHMtbGlzdC91cGxvYWRzLWxpc3QuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0Q6L1Byb2plY3RzL0FuZ3VsYXIvYW5ndWxhci1maXJlL3NyYy9hcHAvdXBsb2Fkcy91cGxvYWRzLWxpc3QvdXBsb2Fkcy1saXN0LmNvbXBvbmVudC50cyIsIm5nOi8vL0Q6L1Byb2plY3RzL0FuZ3VsYXIvYW5ndWxhci1maXJlL3NyYy9hcHAvdXBsb2Fkcy91cGxvYWRzLWxpc3QvdXBsb2Fkcy1saXN0LmNvbXBvbmVudC5odG1sIiwibmc6Ly8vRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZHMtbGlzdC91cGxvYWRzLWxpc3QuY29tcG9uZW50LnRzLlVwbG9hZHNMaXN0Q29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGgzPkZpbGUgVXBsb2FkczwvaDM+XHJcblxyXG48ZGl2ICpuZ0Zvcj1cImxldCB1cGxvYWQgb2YgdXBsb2FkcyB8IGFzeW5jXCI+XHJcbiAgPHVwbG9hZC1kZXRhaWwgW3VwbG9hZF09J3VwbG9hZCc+PC91cGxvYWQtZGV0YWlsPlxyXG48L2Rpdj5cclxuXHJcbjxsb2FkaW5nLXNwaW5uZXIgKm5nSWY9XCJzaG93U3Bpbm5lclwiPjwvbG9hZGluZy1zcGlubmVyPlxyXG5cclxuPGhyPlxyXG5cclxuPHVwbG9hZC1mb3JtPjwvdXBsb2FkLWZvcm0+XHJcbiIsIjx1cGxvYWRzLWxpc3Q+PC91cGxvYWRzLWxpc3Q+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7b0JDRUE7TUFBQSx3RUFBNEM7YUFBQSwwQkFDMUM7TUFBQTt5Q0FBQSxVQUFBO01BQUEsd0RBQWlEO01BQUE7SUFBbEM7SUFBZixXQUFlLFNBQWY7Ozs7b0JBR0Y7TUFBQTsyQ0FBQSxVQUFBO01BQUE7SUFBQTs7OztvQkFOQTtNQUFBLHdFQUFJO2FBQUEsa0NBQWlCO01BRXJCO2FBQUE7NEJBQUEsZ0RBQUs7dUJBQUEsd0JBRUM7TUFFTjthQUFBO1VBQUEsd0JBQXVELHlDQUV2RDtpQkFBQTtjQUFBLDBEQUFJO1VBQUEsV0FFSjtVQUFBOzJDQUFBLFVBQUE7VUFBQSxnREFBMkI7VUFBQTs7SUFSdEI7SUFBTCxXQUFLLFNBQUw7SUFJaUI7SUFBakIsV0FBaUIsU0FBakI7SUFJQTs7OztvQkNWQTtNQUFBO3FDQUFBLFVBQUE7TUFBQTtJQUFBOzs7OyJ9
+var UploadsListComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵccf */]('uploads-list', __WEBPACK_IMPORTED_MODULE_10__app_uploads_uploads_list_uploads_list_component__["a" /* UploadsListComponent */], View_UploadsListComponent_Host_0, {}, {}, []);
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZHMtbGlzdC91cGxvYWRzLWxpc3QuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0Q6L1Byb2plY3RzL0FuZ3VsYXIvYW5ndWxhci1maXJlL3NyYy9hcHAvdXBsb2Fkcy91cGxvYWRzLWxpc3QvdXBsb2Fkcy1saXN0LmNvbXBvbmVudC50cyIsIm5nOi8vL0Q6L1Byb2plY3RzL0FuZ3VsYXIvYW5ndWxhci1maXJlL3NyYy9hcHAvdXBsb2Fkcy91cGxvYWRzLWxpc3QvdXBsb2Fkcy1saXN0LmNvbXBvbmVudC5odG1sIiwibmc6Ly8vRDovUHJvamVjdHMvQW5ndWxhci9hbmd1bGFyLWZpcmUvc3JjL2FwcC91cGxvYWRzL3VwbG9hZHMtbGlzdC91cGxvYWRzLWxpc3QuY29tcG9uZW50LnRzLlVwbG9hZHNMaXN0Q29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGgzPkZpbGUgVXBsb2FkczwvaDM+XHJcblxyXG48ZGl2ICpuZ0Zvcj1cImxldCB1cGxvYWQgb2YgdXBsb2FkcyB8IGFzeW5jXCI+XHJcbiAgPHVwbG9hZC1kZXRhaWwgW3VwbG9hZF09J3VwbG9hZCc+PC91cGxvYWQtZGV0YWlsPlxyXG48L2Rpdj5cclxuXHJcbjxsb2FkaW5nLXNwaW5uZXIgKm5nSWY9XCJzaG93U3Bpbm5lclwiPjwvbG9hZGluZy1zcGlubmVyPlxyXG5cclxuPGhyPlxyXG5cclxuPHVwbG9hZC1mb3JtPjwvdXBsb2FkLWZvcm0+XHJcbiIsIjx1cGxvYWRzLWxpc3Q+PC91cGxvYWRzLWxpc3Q+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7b0JDRUE7TUFBQSx3RUFBNEM7YUFBQSwwQkFDMUM7TUFBQTt5Q0FBQSxVQUFBO01BQUEsd0RBQWlEO01BQUE7SUFBbEM7SUFBZixXQUFlLFNBQWY7Ozs7b0JBR0Y7TUFBQTsyQ0FBQSxVQUFBO01BQUE7SUFBQTs7OztvQkFOQTtNQUFBLHdFQUFJO2FBQUEsa0NBQWlCO01BRXJCO2FBQUE7NEJBQUEsZ0RBQUs7dUJBQUEsd0JBRUM7TUFFTjthQUFBO1VBQUEsd0JBQXVELHlDQUV2RDtpQkFBQTtjQUFBLDBEQUFJO1VBQUEsV0FFSjtVQUFBOzJDQUFBLFVBQUE7VUFBQSxnREFBMkI7VUFBQTs7SUFSdEI7SUFBTCxXQUFLLFNBQUw7SUFJaUI7SUFBakIsV0FBaUIsU0FBakI7Ozs7b0JDTkE7TUFBQTtxQ0FBQSxVQUFBO01BQUE7SUFBQTs7OzsifQ==
 //# sourceMappingURL=uploads-list.component.ngfactory.js.map
 
 /***/ }),
@@ -347,6 +382,39 @@ var styles = [''];
 
 /***/ }),
 
+/***/ "../../../../../src/app/uploads/shared/file-drop.directive.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FileDropDirective; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+
+var FileDropDirective = /** @class */ (function () {
+    function FileDropDirective() {
+        this.filesDropped = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["q" /* EventEmitter */]();
+        this.filesHovered = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["q" /* EventEmitter */]();
+    }
+    FileDropDirective.prototype.onDrop = function ($event) {
+        $event.preventDefault();
+        var transfer = $event.dataTransfer;
+        this.filesDropped.emit(transfer.files);
+        this.filesHovered.emit(false);
+    };
+    FileDropDirective.prototype.onDragOver = function ($event) {
+        event.preventDefault();
+        this.filesHovered.emit(true);
+    };
+    FileDropDirective.prototype.onDragLeave = function ($event) {
+        this.filesHovered.emit(false);
+    };
+    FileDropDirective.ctorParameters = function () { return []; };
+    return FileDropDirective;
+}());
+
+//# sourceMappingURL=file-drop.directive.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/uploads/shared/upload.module.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -357,7 +425,7 @@ var styles = [''];
 var routes = [
     { path: '', component: __WEBPACK_IMPORTED_MODULE_0__uploads_list_uploads_list_component__["a" /* UploadsListComponent */] }
 ];
-var UploadModule = (function () {
+var UploadModule = /** @class */ (function () {
     function UploadModule() {
     }
     return UploadModule;
@@ -377,7 +445,7 @@ var UploadModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_firebase__);
 
 
-var UploadService = (function () {
+var UploadService = /** @class */ (function () {
     function UploadService(db) {
         this.db = db;
         this.basePath = '/uploads';
@@ -397,28 +465,30 @@ var UploadService = (function () {
         })
             .catch(function (error) { return console.log(error); });
     };
-    // Executes the file uploading to firebase https://firebase.google.com/docs/storage/web/upload-files
     UploadService.prototype.pushUpload = function (upload) {
+        var _this = this;
         var storageRef = __WEBPACK_IMPORTED_MODULE_1_firebase__["storage"]().ref();
         var uploadTask = storageRef.child(this.basePath + "/" + upload.file.name).put(upload.file);
         uploadTask.on(__WEBPACK_IMPORTED_MODULE_1_firebase__["storage"].TaskEvent.STATE_CHANGED, function (snapshot) {
             // upload in progress
-            //upload.progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100
+            // upload.progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100
         }, function (error) {
             // upload failed
             console.log(error);
+        }, function () {
+            // upload success
+            upload.url = uploadTask.snapshot.downloadURL;
+            upload.name = upload.file.name;
+            _this.saveFileData(upload);
         });
     };
-    // Writes the file details to the realtime db
     UploadService.prototype.saveFileData = function (upload) {
         this.db.list(this.basePath + "/").push(upload);
     };
-    // Writes the file details to the realtime db
     UploadService.prototype.deleteFileData = function (key) {
         return this.db.list(this.basePath + "/").remove(key);
     };
-    // Firebase files must have unique names in their respective storage dir
-    // So the name serves as a unique key
+    // The name serves as a unique key
     UploadService.prototype.deleteFileStorage = function (name) {
         var storageRef = __WEBPACK_IMPORTED_MODULE_1_firebase__["storage"]().ref();
         storageRef.child(this.basePath + "/" + name).delete();
@@ -436,7 +506,7 @@ var UploadService = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Upload; });
-var Upload = (function () {
+var Upload = /** @class */ (function () {
     function Upload(file) {
         this.createdAt = new Date();
         this.file = file;
@@ -455,7 +525,7 @@ var Upload = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UploadDetailComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_upload_service__ = __webpack_require__("../../../../../src/app/uploads/shared/upload.service.ts");
 
-var UploadDetailComponent = (function () {
+var UploadDetailComponent = /** @class */ (function () {
     function UploadDetailComponent(upSvc) {
         this.upSvc = upSvc;
     }
@@ -484,11 +554,21 @@ var UploadDetailComponent = (function () {
 
 
 
-var UploadFormComponent = (function () {
+var UploadFormComponent = /** @class */ (function () {
     function UploadFormComponent(upSvc) {
         this.upSvc = upSvc;
+        this.dropzoneActive = false;
     }
-    UploadFormComponent.prototype.ngOnInit = function () {
+    UploadFormComponent.prototype.dropzoneState = function ($event) {
+        this.dropzoneActive = $event;
+    };
+    UploadFormComponent.prototype.handleDrop = function (fileList) {
+        var _this = this;
+        var filesIndes = __WEBPACK_IMPORTED_MODULE_2_lodash__["range"](fileList.length);
+        __WEBPACK_IMPORTED_MODULE_2_lodash__["each"](filesIndes, function (idx) {
+            _this.currentUpload = new __WEBPACK_IMPORTED_MODULE_1__shared_upload__["a" /* Upload */](fileList[idx]);
+            _this.upSvc.pushUpload(_this.currentUpload);
+        });
     };
     UploadFormComponent.prototype.detectFiles = function (event) {
         this.selectedFiles = event.target.files;
@@ -524,7 +604,7 @@ var UploadFormComponent = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UploadsListComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_upload_service__ = __webpack_require__("../../../../../src/app/uploads/shared/upload.service.ts");
 
-var UploadsListComponent = (function () {
+var UploadsListComponent = /** @class */ (function () {
     function UploadsListComponent(upSvc) {
         this.upSvc = upSvc;
         this.showSpinner = true;
