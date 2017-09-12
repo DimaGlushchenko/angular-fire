@@ -1,9 +1,8 @@
 import * as functions from 'firebase-functions'
 import * as admin from 'firebase-admin'
-
 admin.initializeApp(functions.config().firebase);
 
-const stripe = require('stripe')(functions.config().stripe.testkey)
+export const stripe = require('stripe')(functions.config().stripe.testkey)
 
 exports.stripeCharge = functions.database
     .ref('/payments/{userId}/{paymentId}')
