@@ -11,6 +11,7 @@ import { BasicChartComponent } from './charts/basic-chart/basic-chart.component'
 import { ReducerComponent } from './reducers/component/reducer.component';
 import { MultiStateComponent } from "./animation/multi-state/multi-state.component";
 import { TranslatorComponent } from './translator/translator.component';
+import { PizzaComponent } from './pizza/pizza.component';
 
 const routes: Routes = [
   { path: '', component: ContentComponent },
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'reducer', component: ReducerComponent, canActivate: [AuthGuard]},
   { path: 'animation', component: MultiStateComponent, canActivate: [AuthGuard]},
   { path: 'translator', component: TranslatorComponent, canActivate: [AuthGuard]},
+  { path: 'pizza', component: PizzaComponent, canActivate: [AuthGuard]},
 ];
 
 @NgModule({

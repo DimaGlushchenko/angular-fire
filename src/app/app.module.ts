@@ -34,6 +34,7 @@ import { userReducer } from "./reducers/reducers/user.reducer";
 import { PostEffects } from "./reducers/effects/post.effects";
 import { postReducer } from "./reducers/reducers/post.reducer";
 import { TranslatorComponent } from './translator/translator.component';
+import { PizzaComponent } from './pizza/pizza.component';
 
 const APP_ID = 'angular-universal-firebase';
 
@@ -42,7 +43,8 @@ const APP_ID = 'angular-universal-firebase';
     AppComponent,
     GoogleMapComponent,
     ReducerComponent,
-    TranslatorComponent
+    TranslatorComponent,
+    PizzaComponent
   ],
 
   imports: [
@@ -69,4 +71,5 @@ const APP_ID = 'angular-universal-firebase';
   bootstrap: [AppComponent],
   providers: [Logger, GeoService, ChartService]
 })
+
 export class AppModule { }
