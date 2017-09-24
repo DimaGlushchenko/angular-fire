@@ -43,7 +43,7 @@
       "main": "main-ssr.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.app-ssr.json",
-      "prefix": "app",
+      "prefix": "",
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {

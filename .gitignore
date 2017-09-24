@@ -45,5 +45,7 @@ Thumbs.db
 # environments
 src/environments
 
-#functions
+# functions
 /functions/node_modules
+
+**/*.spec.ts"

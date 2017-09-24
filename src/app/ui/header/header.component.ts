@@ -25,7 +25,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 
 export class HeaderComponent implements OnInit {
 
-  // collapse:string = "closed";
+  collapse:string = "closed";
   show: boolean = false;
 
   constructor() { }
@@ -35,8 +35,7 @@ export class HeaderComponent implements OnInit {
 
   toggleCollapse() {
     this.show = !this.show
-    // this.collapse = this.collapse == "open" ? 'closed' : 'open';
-
+    this.collapse = this.collapse == "open" ? 'closed' : 'open';
   }
 
 }

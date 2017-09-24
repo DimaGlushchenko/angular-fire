@@ -1,8 +1,29 @@
-<nav class="nav">
-  <div class="nav-left">
-    <a class="nav-item" routerLink="/">
-       Angular Fire
-    </a>
+<nav class="nav" role="navigation" aria-label="dropdown navigation">
+
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      <div class="navbar-item has-dropdown is-hoverable">
+        
+        <a class="navbar-link"> Angular Fire </a>
+        <div class="navbar-dropdown">
+          <p class="menu-label">General</p>
+          <hr class="navbar-divider">
+          <a class="navbar-item" routerLink="dashboard">Dashboard</a>
+          <a class="navbar-item" routerLink="charts">Charts</a>
+          <a class="navbar-item" routerLink="reducer">Reducer</a>
+          <a class="navbar-item" routerLink="animation">Animation</a>
+          <a class="navbar-item" routerLink="translator">Translator</a>
+          <p class="menu-label"> Transactions</p>
+          <hr class="navbar-divider">
+          <a class="navbar-item">Customers</a>
+          <a class="navbar-item" routerLink="/payments">Payments</a>
+          <a class="navbar-item">Transfers</a>
+          <a class="navbar-item">Balance</a>
+          <a class="navbar-item" routerLink="/pizza">Pizza</a>
+        </div>
+
+      </div>
+    </div>
   </div>
 
   <div class="nav-center">
@@ -27,21 +48,14 @@
   <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
   <span class="nav-toggle" (click)="toggleCollapse()" [ngClass]="{'is-active': show}">
     <span></span>
-  <span></span>
-  <span></span>
+    <span></span>
+    <span></span>
   </span>
 
-  <!-- This "nav-menu" is hidden on mobile -->
-  <!-- Add the modifier "is-active" to display it on mobile -->
   <div class="nav-right nav-menu" [ngClass]="{'is-active': show}">
-    <a class="nav-item" routerLink="/login">
-      Login
-    </a>
-    <a class="nav-item" routerLink="/items">
-      Items
-    </a>
-    <a class="nav-item" routerLink="/uploads">
-      Uploads
-    </a>
+    <a class="nav-item" routerLink="/login"> Login </a>
+    <a class="nav-item" routerLink="/items"> Items </a>
+    <a class="nav-item" routerLink="/uploads"> Uploads </a>
   </div>
+
 </nav>
